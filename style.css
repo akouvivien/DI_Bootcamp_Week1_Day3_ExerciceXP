@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 238, 238);
+    font-family: 'Chivo Mono', monospace;
+}
+.grid-container {
+    display: grid;
+    grid-template: 150px / auto auto ;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template: 400px / auto auto ;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  #g-diplome{
+    padding-left: 25px;
+  }
+  
+  #g-nom{
+    padding-top: 5px;
+    padding-left: 25px;
+    opacity: 0.5;
+    font-size: 40px;
+  }
+  #g-prenom{
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #contact{
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .trace{
+    margin-left: 25px;
+    height: 9px;
+    width: 60px;
+    background-color: rgb(161, 106, 3);
+  }
+  img{
+    margin-left: 500px;
+    height: 200px;
+    width: 150px;
+  }
+  
+
+
+  
+  .icon-contact{
+    color: orange;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: 5px;
+
+  }
+  hr{
+   margin-left: 150px;
+   margin-right: 150px;
+  }
+  #education{
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #competence{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #experience{
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .parcours{
+    padding-top: 10px;
+    padding-left: 25px;
+  }
